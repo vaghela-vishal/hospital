@@ -9,6 +9,8 @@
     <!-- favicon-icon -->
     <!-- <link rel="icon" href="img/favicon.ico"> -->
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +25,13 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
      <!-- Bootstrap CSS-->
-    
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
      <!-- style -->
-        <link rel="stylesheet" href="css/animate.min.css">
+        <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
         <link rel="stylesheet" href="css/style.css">
-        
+       
+          
    
   
      <!-- Boxicons CSS
@@ -111,7 +113,7 @@
             <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
         <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-        <a href="appointment.html" class="btn  py-2 px-4 ms-3" style="background-color: #06A3DA; color: #fff;">Appointment</a>
+        <a href="#appointment" class="btn  py-2 px-4 ms-3" style="background-color: #06A3DA; color: #fff;">Appointment</a>
     </div>
 </nav>
 <!-- Navbar End -->
@@ -127,9 +129,9 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h3 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h3>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="#appointment" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h4 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h4>
+                            <a href="#appointment" class="btn btn-primary py-md-3 px-md-5 me-3" data-aos="slide-right">Appointment</a>
+                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5" data-aos="slide-left">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -138,9 +140,9 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h3 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h3>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="#appointment" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h4 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h4>
+                            <a href="#appointment" class="btn btn-primary py-md-3 px-md-5 me-3 "  data-aos="slide-right">Appointment</a>
+                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5" data-aos="slide-left">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +166,7 @@
 <div class="container-fluid banner mb-5">
     <div class="container">
         <div class="row gx-0">
-            <div class="col-lg-4 animated zoomIn"  >
+            <div class="col-lg-4 "  data-aos="zoom-in">
                 <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
                     <h3 class="text-white mb-3">Opening Hours</h3>
                     <div class="d-flex justify-content-between text-white mb-3">
@@ -182,7 +184,7 @@
                     <a class="btn btn-light" href="#appointment">Appointment</a>
                 </div>
             </div>
-            <div class="col-lg-4 animated zoomIn" data-wow-delay="0.3s" style="background-color: #091E3E;">
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="0.3s" style="background-color: #091E3E;">
                 <div class="bg-#091E3E d-flex flex-column p-5" style="height: 300px;">
                     <h3 class="text-white mb-3">Search A Doctor</h3>
                     <div class="date mb-3" id="date" data-target-input="nearest">
@@ -198,7 +200,7 @@
                     <a class="btn btn-light" href="">Search Doctor</a>
                 </div>
             </div>
-            <div class="col-lg-4 animated zoomIn" data-wow-delay="0.6s" style=" background-color: #F57E57;">
+            <div class="col-lg-4 "  data-aos="zoom-in"  data-aos-delay="0.6s" style=" background-color: #F57E57;">
                 <div class="bg--secondary d-flex flex-column p-5" style="height: 300px;">
                 <h3 class="text-white mb-3">Make Appointment</h3>
                     <p class="text-white">Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
@@ -212,31 +214,31 @@
 
 
  <!-- About Start -->
- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="about">
+ <div class="container-fluid py-5 "  data-aos-delay="0.6s" id="about">
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-7">
-                <div class="section-title mb-4">
+                <div class="section-title mb-4"  data-aos="slide-right">
                     <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
                     <h1 class="display-5 mb-0">The World's Best Dental Clinic That You Can Trust</h1>
                 </div>
-                <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                <h4 class="text-body fst-italic mb-4"  data-aos="slide-right">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
+                <p class="mb-4"  data-aos="slide-right">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                 <div class="row g-3">
-                    <div class="col-sm-6 wow animated zoomIn" data-wow-delay="0.3s">
+                    <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="0.3s">
                         <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
                         <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Staff</h5>
                     </div>
-                    <div class="col-sm-6 wow animated zoomIn" data-wow-delay="0.6s">
+                    <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="0.6s">
                         <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>24/7 Opened</h5>
                         <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
                     </div>
                 </div>
-                <a href="#appointment" class="btn  py-3 px-5 mt-4 wow animated flipInX" style="background-color: #06A3DA; color: #fff;" data-wow-delay="0.6s">Make Appointment</a>
+                <a href="#appointment" class="btn  py-3 px-5 mt-4" data-aos="zoom-in" style="background-color: #06A3DA; color: #fff;" data-wow-delay="0.6s">Make Appointment</a>
             </div>
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow animated rotateInDownLeft" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded"  data-aos="zoom-in" data-aos-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -246,21 +248,21 @@
 
 
 <!-- Service Start -->
-<div class="container-fluid py-5 animated fadeInUp" data-wow-delay="0.1s" id="service">
+<div class="container-fluid py-5 "  data-aos-delay="0.1s" id="service">
     <div class="container">
         <div class="row g-5 mb-5">
-            <div class="col-lg-5 aniamated zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
+            <div class="col-lg-5 "  data-aos="slide-right" data-aos-delay="0.3s" style="min-height: 400px;">
                 <div class="twentytwenty-container position-relative h-100 rounded overflow-hidden">
                     <img class="position-absolute w-100 h-100" src="img/after.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-7">
                 <div class="section-title mb-5">
-                    <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Services</h5>
-                    <h1 class="display-5 mb-0">We Offer The Best Quality Dental Services</h1>
+                    <h5 class="position-relative d-inline-block text-primary text-uppercase"  data-aos="slide-left" data-aos-delay="0.3s">Our Services</h5>
+                    <h1 class="display-5 mb-0"  data-aos="slide-left">We Offer The Best Quality Dental Services</h1>
                 </div>
                 <div class="row g-5">
-                    <div class="col-md-6 service-item animated zoomIn" data-wow-delay="0.6s">
+                    <div class="col-md-6 service-item "  data-aos="zoom-in" data-aos-delay="0.6s">
                         <div class="rounded-top1 overflow-hidden">
                             <img class="img-fluid" src="img/service-1.jpg" alt="">
                         </div>
@@ -268,7 +270,7 @@
                             <h5 class="m-0">Cosmetic Dentistry</h5>
                         </div>
                     </div>
-                    <div class="col-md-6 service-item animated zoomIn" data-wow-delay="0.9s">
+                    <div class="col-md-6 service-item" data-aos="zoom-in" data-aos-delay="0.9s">
                         <div class="rounded-top1 overflow-hidden">
                             <img class="img-fluid" src="img/service-2.jpg" alt="">
                         </div>
@@ -282,7 +284,7 @@
         <div class="row g-5 animated fadeInUp" data-wow-delay="0.1s">
             <div class="col-lg-7">
                 <div class="row g-5">
-                    <div class="col-md-6 service-item animated zoomIn" data-wow-delay="0.3s">
+                    <div class="col-md-6 service-item" data-aos="zoom-in" data-aos-delay="0.3s">
                         <div class="rounded-top1 overflow-hidden">
                             <img class="img-fluid" src="img/service-3.jpg" alt="">
                         </div>
@@ -290,7 +292,7 @@
                             <h5 class="m-0">Dental Bridges</h5>
                         </div>
                     </div>
-                    <div class="col-md-6 service-item animated zoomIn" data-wow-delay="0.6s">
+                    <div class="col-md-6 service-item" data-aos="zoom-in" data-aos-delay="0.6s">
                         <div class="rounded-top1 overflow-hidden">
                             <img class="img-fluid" src="img/service-4.jpg" alt="">
                         </div>
@@ -300,7 +302,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 service-item  animated zoomIn" data-wow-delay="0.9s">
+            <div class="col-lg-5 service-item " data-aos="zoom-in" data-aos-delay="0.9s">
                 <div class="position-relative  rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4" style="background-color: #06A3DA;">
                     <h3 class="text-white mb-3">Make Appointment</h3>
                     <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
@@ -318,13 +320,13 @@
     <div class="container">
         <div class="row gx-5">
             <div class="col-lg-6 py-5">
-                <div class="py-5">
+                <div class="py-5" data-aos="slide-right">
                     <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
                     <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow animated zoomIn" data-wow-delay="0.6s">
+                <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5" data-aos="zoom-in" data-aos-delay="0.6s">
                     <h1 class="text-white mb-4">Make Appointment</h1>
                     <form>
                         <div class="row g-3">
@@ -377,7 +379,7 @@
 <!-- Appointment End -->
 
     <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid bg-offer my-5 py-5" data-aos="zoom-in" data-aos-delay="0.1s">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
@@ -399,14 +401,14 @@
      <div class="container-fluid py-5" id="team">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-4 wow aniamated slideInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 " data-aos="slide-up" data-aos-delay="0.1s">
                     <div class="section-title bg-light rounded h-100 p-5">
                         <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Dentist</h5>
                         <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
                         <a href="#appointment" class="btn  py-3 px-5" style="background-color: #06A3DA; color: #fff;">Appointment</a>
                     </div>
                 </div>
-                <div class="col-lg-4 wow aniamated slideInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4" data-aos="slide-up" data-aos-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
                             <img class="img-fluid rounded-top w-100" src="img/team-1.jpg" alt="">
@@ -423,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 aniamated slideInUp">
+                <div class="col-lg-4" data-aos="slide-up" >
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
                             <img class="img-fluid rounded-top w-100" src="img/team-2.jpg" alt="">
@@ -440,7 +442,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow aniamated slideInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4" data-aos="slide-up"  data-aos-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
                             <img class="img-fluid rounded-top w-100" src="img/team-3.jpg" alt="">
@@ -457,7 +459,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow aniamated slideInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4" data-aos="slide-up"  data-aos-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
                             <img class="img-fluid rounded-top w-100" src="img/team-4.jpg" alt="">
@@ -474,7 +476,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow aniamated slideInUp" data-wow-delay="0.6s">
+                <div class="col-lg-4" data-aos="slide-up"  data-aos-delay="0.6s">
                     <div class="team-item">
                         <div class="position-relative rounded-top" style="z-index: 1;">
                             <img class="img-fluid rounded-top w-100" src="img/team-5.jpg" alt="">
@@ -508,9 +510,9 @@
     <section class="container9" id="test">
         <div class="testimonial mySwiper">
           <div class="testi-content swiper-wrapper">
-            <div class="slide swiper-slide">
+            <div class="slide swiper-slide" data-aos="zoom-in  " >
               <img src="img/img1.jpg" alt="" class="image" />
-              <p1>
+              <p1 data-aos="zoom-in" >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
                 saepe provident dolorem a quaerat quo error facere nihil deleniti
                 eligendi ipsum adipisci, fugit, architecto amet asperiores
@@ -524,9 +526,9 @@
                 <span class="job">Special Surgery</span>
               </div>
             </div>
-            <div class="slide swiper-slide">
+            <div class="slide swiper-slide" data-aos="zoom-in" >
               <img src="img/img2.jpg" alt="" class="image" />
-              <p1>
+              <p1 data-aos="zoom-in" >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
                 saepe provident dolorem a quaerat quo error facere nihil deleniti
                 eligendi ipsum adipisci, fugit, architecto amet asperiores
@@ -540,9 +542,9 @@
                 <span class="job">Special Surgery</span>
               </div>
             </div>
-            <div class="slide swiper-slide">
+            <div class="slide swiper-slide" data-aos="zoom-in" >
               <img src="img/img3.jpg" alt="" class="image" />
-              <p1>
+              <p1 data-aos="zoom-in" >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
                 saepe provident dolorem a quaerat quo error facere nihil deleniti
                 eligendi ipsum adipisci, fugit, architecto amet asperiores
@@ -574,7 +576,7 @@
         
         <div class="box">
             <!-- form -->
-            <div class="contact form">
+            <div class="contact form" data-aos="slide-right" >
                 <h3>Send Message</h3>
             <form>
                 <div class="formbox">
@@ -618,7 +620,7 @@
             </div>
       
             <!-- info-->
-            <div class="contact info">
+            <div class="contact info" data-aos="slide-left" >
                 <h3>contact info</h3>
                 <div class="infoBox">
                     <div>
@@ -644,7 +646,7 @@
                 </div>
             </div>
             <!-- map-->
-            <div class="contact map">
+            <div class="contact map" data-aos="slide-up" >
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119005.05792487529!2d72.68305374335934!3d21.235494100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d93f5b9a49d%3A0x7e43513981de4d34!2sNavadia%20Multispeciality%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1692360832568!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -658,7 +660,7 @@
 
 
 <!-- Newsletter Start -->
-    <div class="container-fluid bg-#06A3DA position-relative pt-5 wow fadeInUp " data-wow-delay="0.1s" style="z-index: 1 ;">
+    <div class="container-fluid bg-#06A3DA position-relative pt-5"  data-aos="fade-up" style="z-index: 1 ;">
         <div class="container">
             <div class=" p-5" style="background-color: #06A3DA;">
                 <form class="mx-auto" style="max-width: 600px;">
@@ -674,7 +676,7 @@
   
      
     <!-- Footer Start -->
-    <div class="container-fluid bg-#091E3E text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px; background-color: #091E3E;">
+    <div class="container-fluid bg-#091E3E text-light py-5"  data-aos="fade-up" data-aos-delay="50" style="margin-top: -75px; background-color: #091E3E;">
         <div class="container pt-5">
             <div class="row g-5 pt-4">
                 <div class="col-lg-3 col-md-6">
@@ -773,10 +775,18 @@
  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Swiper JS -->
      <script src="js/swiper-bundle.min.js"></script>
+      <!-- our aos data -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+      AOS.init({
+          offset: 300,
+          duration: 1000,
+      });
+      </script>
     <script src="js/main.js"></script>
 
    
