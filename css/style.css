@@ -573,7 +573,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .map{
-  padding: 0;
+  padding: 0px;
 }
 
 .map iframe{
@@ -595,10 +595,7 @@ h1,h2,h3,h4,h5,h6{
     "info"
     "map";
   }
-  .map{
-    
-    min-height: 300px;
-  }
+  
   .formbox .row50{
     display: flex;
     gap:0;
@@ -609,6 +606,10 @@ h1,h2,h3,h4,h5,h6{
   }
   .contact{
     padding: 30px;
+  }
+  .map{
+    min-height: 300px;
+    padding: 0px;
   }
   
 }
