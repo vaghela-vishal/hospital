@@ -378,6 +378,7 @@ h1,h2,h3,h4,h5,h6{
   
   html{
     scroll-behavior: smooth;
+    
   }
   .arrow{
     position: fixed;
@@ -582,7 +583,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* responsiv */
 
-@media(max-width:786px){
+@media(max-width:991px){
   .c1{
     padding: 20px;
   }
@@ -609,15 +610,5 @@ h1,h2,h3,h4,h5,h6{
   .contact{
     padding: 30px;
   }
-  .map{
-    padding: 0;
-    min-height: 300px;
-  }
+  
 }
-
-/* @media(max-width: 768px){
-  .map{
-    padding: 0;
-    min-height: 300px;
-  }
-} */
